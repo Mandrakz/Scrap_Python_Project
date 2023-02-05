@@ -23,5 +23,5 @@ print('Downloading ZIP Completed')
 print('Extracting CSV from ZIP started')
 # extracting the zip file contents
 zip = zipfile.ZipFile(BytesIO(req.content))
-zip.extractall('C:/Users/Carlos Franco/Desktop/Scrap_Python_Project/3_fileSaver')
+zip.extractall('C:/Users/User/Desktop/Scrapper_F1/3_fileSaver')
 print('Extracting CSV from ZIP Completed')
