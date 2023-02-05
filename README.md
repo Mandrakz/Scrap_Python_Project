@@ -1,7 +1,4 @@
 # Scrap_Python_Project
-
-
-<h1> Scrap_Python_Project </h1>
 <h3> 👨🏻‍💻 Files </h3>
 
 -  &nbsp; 1_Scrapper .py for extranting the information f1 
