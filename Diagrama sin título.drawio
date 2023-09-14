@@ -1,9 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2023-09-14T11:47:11.820Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" version="21.7.5" etag="alXvZPc6vHldXzV3goij" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-14T12:25:36.901Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="ua15l8WaCMP-rCNzrDpj" version="21.7.5" type="github">
   <diagram name="Página-1" id="ogTamH2YG6i08N5wkycK">
-    <mxGraphModel>
+    <mxGraphModel dx="2022" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="B2gF1ye2kiIGB3XzlrUS-1" value="&lt;div&gt;Internet:&lt;/div&gt;&lt;div&gt;(Datasource) http://ergast.com/mrd/&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-25" y="60" width="360" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="B2gF1ye2kiIGB3XzlrUS-3" value="&lt;div&gt;1.Scrapper.py&lt;/div&gt;&lt;div&gt;2. TaskAutScrapper.bat&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="152.5" y="210" width="157.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B2gF1ye2kiIGB3XzlrUS-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B2gF1ye2kiIGB3XzlrUS-4" target="B2gF1ye2kiIGB3XzlrUS-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B2gF1ye2kiIGB3XzlrUS-4" value="&lt;div&gt;Staging Area: &lt;br&gt;&lt;/div&gt;&lt;div&gt;IP:192.168.80.1XY &lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="125" y="300" width="73.8" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="B2gF1ye2kiIGB3XzlrUS-5" value="Enviroment Virtual machines" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="40" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B2gF1ye2kiIGB3XzlrUS-9" value="&lt;div&gt;Business Person (Create Reports)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;192.168.80.1X(Y+2)&lt;/div&gt;" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="797.6" y="310" width="62.400000000000006" height="62.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="B2gF1ye2kiIGB3XzlrUS-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600.8015148309967" y="344.5" as="sourcePoint" />
+            <mxPoint x="780.23" y="344.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="690.23" y="344.5" />
+              <mxPoint x="690.23" y="344.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2gF1ye2kiIGB3XzlrUS-21" value="&lt;div&gt;Datawarehouse&lt;br&gt;&lt;/div&gt;&lt;div&gt;IP: &lt;br&gt;&lt;/div&gt;192.168.80.1X(Y+1)" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="527" y="300" width="73.8" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="B2gF1ye2kiIGB3XzlrUS-27" value="&lt;div&gt;5.ETL_2&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B2gF1ye2kiIGB3XzlrUS-30" value="3.Power Query(Power BI)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="300" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B2gF1ye2kiIGB3XzlrUS-41" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="137.5" y="440" width="35" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B2gF1ye2kiIGB3XzlrUS-42" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Folder_Blank.svg;" vertex="1" parent="1">
+          <mxGeometry x="55.4" y="531" width="36.96" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B2gF1ye2kiIGB3XzlrUS-43" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.sql_server;" vertex="1" parent="1">
+          <mxGeometry x="225.4" y="520" width="43" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="B2gF1ye2kiIGB3XzlrUS-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="104.4" y="548.5" as="sourcePoint" />
+            <mxPoint x="205.4" y="549" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2gF1ye2kiIGB3XzlrUS-45" value="3. Container &quot;Folder&quot;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="22.5" y="565" width="117.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B2gF1ye2kiIGB3XzlrUS-46" value="4.ETL_1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="125" y="520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B2gF1ye2kiIGB3XzlrUS-47" value="Info: Structure that comes from Internet" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="576" width="117.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B2gF1ye2kiIGB3XzlrUS-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.489;exitY=0.942;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="B2gF1ye2kiIGB3XzlrUS-1" target="B2gF1ye2kiIGB3XzlrUS-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="250" as="sourcePoint" />
+            <mxPoint x="218" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2gF1ye2kiIGB3XzlrUS-55" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="447" width="35" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B2gF1ye2kiIGB3XzlrUS-57" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.sql_server;" vertex="1" parent="1">
+          <mxGeometry x="535.4" y="527" width="43" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="B2gF1ye2kiIGB3XzlrUS-61" value="Info: Structure for the specific report" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="583" width="117.5" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
