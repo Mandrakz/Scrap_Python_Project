@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-09-14T12:44:48.589Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="BfdFThe0HDJV5wlmuvrS" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-14T13:35:54.177Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="F6M89jOdcoKkALlDolIw" version="21.7.5" type="github">
   <diagram name="Página-1" id="ogTamH2YG6i08N5wkycK">
     <mxGraphModel dx="2261" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="B2gF1ye2kiIGB3XzlrUS-1" value="&lt;div&gt;Internet:&lt;/div&gt;&lt;div&gt;(Datasource) http://ergast.com/mrd/&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-25" y="60" width="360" height="120" as="geometry" />
+          <mxGeometry x="-10" y="60" width="360" height="120" as="geometry" />
         </mxCell>
         <mxCell id="B2gF1ye2kiIGB3XzlrUS-3" value="&lt;div&gt;1.Scrapper.py&lt;/div&gt;&lt;div&gt;2. TaskAutScrapper.bat&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="152.5" y="210" width="157.5" height="30" as="geometry" />
